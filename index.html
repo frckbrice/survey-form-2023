@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey_form_rebaseacademy</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@100;300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
+  </head>
+  <body>
+    <div class="title-text">
+      <h1>Fist test for Survey Form</h1>
+      <p class="text">
+        Thank you for taking the time to help us improve the platform. <br />
+        Please kindly fill the survey form below.
+      </p>
+    </div>
+    <div class="formulaire">
+      <form id="formulaire" method="post">
+        <div class="info">
+          <br />
+          <label for="name">Name <span class="star">*</span>:</label><br />
+          <input
+            type="text"
+            id="name"
+            name="name"
+            maxlength="50"
+            minlength="2"
+            placeholder="Enter your name"
+            required
+          /><br /><br />
+          <label for="email" class="field-text"
+            >Email <span class="star">*</span> :</label
+          ><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="exemple@something.com"
+            required
+          /><br /><br />
+          <label for="age" class="field-text"
+            >Age <span class="star">*</span>(optional) :</label
+          >
+          <input
+            type="number"
+            id="age"
+            name="age"
+            min="16"
+            max="99"
+            placeholder="your age"
+            required
+          /><br /><br />
+        </div>
+        <label for="role-desc">
+          Which option best describes your current role? </label
+        ><br /><br />
+        <div class="desc">
+          <select name="role-desc" class="option">
+            <option value="" selected disabled hidden>
+              Select current role
+            </option>
+            <option value="Student">Student</option>
+            <option value="Full-time-learner">Full time learner</option>
+            <option value="Full-time-job">Full time job</option>
+            <option value="prefer-not-to-say">Prefer not to say</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <br />
+        <label class="field-text" for=""
+          >Would you recommend freeCodeCamp to a friend?</label
+        ><br /><br />
+        <div class="radio">
+          <input
+            type="radio"
+            id="definitly"
+            name="definitly"
+            checked
+            class="increase"
+          />
+          <label for="definitly">Definitly</label><br />
+          <input type="radio" id="maybe" name="definitly" class="increase" />
+          <label for="maybe">Maybe</label><br />
+          <input type="radio" id="notsure" name="definitly" class="increase" />
+          <label for="notsure">Not sure</label><br />
+        </div>
+        <br />
+        <label for="role-desc"
+          >What is your favorite feature of freeCodeCamp?</label
+        ><br /><br />
+        <div class="desc">
+          <select name="fav-feat" class="option">
+            <option value="" selected disabled hidden>Select an option</option>
+            <option value="Challenge">Challenge</option>
+            <option value="Projects">Projects</option>
+            <option value="Community">Community</option>
+            <option value="Open source">Open source</option>
+          </select>
+        </div>
+        <br />
+        <label for=""
+          >What would you like to see improved?(Check all that apply)</label
+        ><br /><br />
+        <div class="checkbox">
+          <input
+            type="checkbox"
+            id="f-e"
+            name="improvement"
+            value="Front-end-projects"
+            class="increase"
+          />
+          <label for="f-e">Front-end-projects</label><br />
+          <input
+            type="checkbox"
+            id="b-e"
+            name="improvement"
+            value="Back-end-projects"
+            class="increase"
+          />
+          <label for="b-e">Back-end-projects</label><br />
+          <input
+            type="checkbox"
+            id="d-v"
+            name="improvement"
+            value="Datavisualisation"
+            class="increase"
+          />
+          <label for="d-v">Data Visualisation</label><br />
+          <input
+            type="checkbox"
+            id="cha"
+            name="improvement"
+            value="Challenges"
+            class="increase"
+          />
+          <label for="cha">Challenges</label><br />
+          <input
+            type="checkbox"
+            id="osc"
+            name="improvement"
+            value="open-source-community"
+            class="increase"
+          />
+          <label for="osc">Open Source Sommunity</label><br />
+          <input
+            type="checkbox"
+            id="ghr"
+            name="improvement"
+            value="Gitter-help-rooms"
+            class="increase"
+            checked
+          />
+          <label for="ghr">Gitter help room</label><br />
+          <input
+            type="checkbox"
+            id="videos"
+            name="improvement"
+            value="Videos"
+            class="increase"
+          />
+          <label for="Videos">Videos</label><br />
+          <input
+            type="checkbox"
+            id="cm"
+            name="improvement"
+            value="city-meetup"
+            class="increase"
+          />
+          <label for="cm">City Meetups</label><br />
+          <input
+            type="checkbox"
+            id="wiki"
+            name="improvement"
+            value="wiki"
+            class="increase"
+          />
+          <label for="wiki">Wiki</label><br />
+          <input
+            type="checkbox"
+            id="forum"
+            name="improvement"
+            value="forum"
+            class="increase"
+          />
+          <label for="forum">Forum</label><br />
+          <input
+            type="checkbox"
+            id="a-c"
+            name="improvement"
+            value="additional-courses"
+            class="increase"
+          />
+          <label for="a-c"> Additional courses</label><br />
+        </div>
+        <br /><br />
+        <label for="suggestion">Any comments or suggestions?</label><br />
+        <div class="sug">
+          <br />
+          <textarea name="suggestions" id="suggestion" maxlength="30">
+          </textarea
+          ><br />
+        </div>
+        <br />
+        <input type="submit" value="Submit" class="submit" /><br /><br />
+      </form>
+    </div>
+  </body>
+</html>
