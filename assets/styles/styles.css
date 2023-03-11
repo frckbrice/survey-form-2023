@@ -111,8 +111,8 @@ body {
 
 .contain {
   width: 100%;
-  padding: inherit;
-  margin: 50px auto 0;
+  /*padding: inherit;
+  margin: 50px auto 0;*/
 }
 
 @media screen and (max-width: 770px) {
@@ -138,6 +138,6 @@ body {
 @media screen and (min-width: 640px) {
   #formulaire {
     border-radius: 10px;
-    margin: auto;
+    /* margin: auto;*/
   }
 }
