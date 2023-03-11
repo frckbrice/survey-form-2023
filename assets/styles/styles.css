@@ -7,11 +7,12 @@
 
 body {
   background-image: linear-gradient(
-      115deg,
-      rgba(58 58 158 30%),
-      rgba(136 136 206 50%)
+      rgba(0, 0, 0, 0.5),
+      rgba(12, 21, 105, 0.616)
     ),
-    url("https://img.freepik.com/photos-gratuite/     				gros-plan-image-programmeur-travaillant-son-bureau-dans-bureau_1098-18707.jpg?w=740&t=st=1678544254~exp=1678544854~hmac=f15bd4932298427b666a57a5ff367ca8f2647edb13a74ae4679c67280d76c131");
+    url(../images/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -47,7 +48,7 @@ body {
 #formulaire {
   font-size: 14px;
   font-weight: lighter;
-  background-color: rgba(58 58 158 60%);
+  background: #072d5f;
   padding-left: 30px;
   padding-right: 30px;
   border-radius: 10px;
