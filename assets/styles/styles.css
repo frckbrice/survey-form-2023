@@ -1,0 +1,115 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(
+      115deg,
+      rgba(58 58 158 30%),
+      rgba(136 136 206 50%)
+    ),
+    url("https://img.freepik.com/photos-gratuite/     				gros-plan-image-programmeur-travaillant-son-bureau-dans-bureau_1098-18707.jpg?w=740&t=st=1678544254~exp=1678544854~hmac=f15bd4932298427b666a57a5ff367ca8f2647edb13a74ae4679c67280d76c131");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+}
+
+.title-text {
+  margin: auto;
+  padding: 15px;
+  margin-top: 20px;
+  font-size: 40px;
+  width: max-content;
+  color: #fff;
+}
+
+.title-text h1 {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Kaushan Script", cursive;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.title-text p {
+  font-size: 14px;
+  margin: 5px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  padding: 3px;
+  text-decoration-style: dotted;
+}
+
+#formulaire {
+  font-size: 14px;
+  font-weight: lighter;
+  background-color: rgba(58 58 158 60%);
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 10px;
+  margin: 0;
+  margin-left: 29%;
+  margin-right: 29%;
+  margin-top: 40px;
+  color: #fff;
+}
+
+.info input {
+  font-size: 14px;
+  width: 92%;
+  height: 1px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.submit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 14px;
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #9c5691;
+  border-radius: 4px;
+}
+
+.option {
+  font-size: 14px;
+  width: 99%;
+  height: 30px;
+  padding: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+}
+
+#suggestion {
+  width: 90%;
+  margin: auto;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.increase {
+  width: 20px;
+  height: 20px;
+}
+
+@media (min-width: 480px) {
+  .formilaire {
+    padding: 2.5rem;
+  }
+}
