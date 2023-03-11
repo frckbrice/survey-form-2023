@@ -7,7 +7,7 @@
 
 body {
   background-image: linear-gradient(rgba(0 0 0 / 50%), rgba(12 21 105 / 61.5%)),
-    url(../images/bg2.jpg);
+    url("../images/bg2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -80,7 +80,7 @@ body {
 .option {
   font-size: 14px;
   width: 99%;
-  height: 30px;
+  height: 50px;
   padding: 15px;
   padding-left: 10px;
   padding-right: 10px;
@@ -102,6 +102,7 @@ body {
 .increase {
   width: 20px;
   height: 20px;
+  font-size: 20px;
 }
 
 @media (min-width: 480px) {
