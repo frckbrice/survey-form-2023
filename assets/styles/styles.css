@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
+
 * {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -51,6 +53,7 @@ body {
   margin-left: 29%;
   margin-right: 29%;
   margin-top: 40px;
+  margin-bottom: 40px;
   color: #fff;
 }
 
@@ -100,13 +103,19 @@ body {
 }
 
 .increase {
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   font-size: 20px;
 }
 
-@media (min-width: 480px) {
+.contain {
+  width: 100%;
+  margin: 3.125rem auto 0 auto;
+}
+
+@media screen and (min-width: 480px) {
   .formilaire {
-    padding: 2.5rem;
+    padding: 100px;
+    width: 100%;
   }
 }
