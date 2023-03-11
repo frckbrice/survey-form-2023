@@ -8,7 +8,7 @@
 }
 
 body {
-  background-image: linear-gradient(rgba(0 0 0 / 50%), rgba(12 21 105 / 61.5%)),
+  background-image: linear-gradient(rgba(0 0 0 / 40%), rgba(0 0 0 / 61.5%)),
     url("../images/bg2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -50,7 +50,7 @@ body {
   padding-left: 30px;
   padding-right: 30px;
   border-radius: 10px;
-  margin: 40px 29% 30px 29%;
+  margin: 40px 29% 30px;
   color: #fff;
 }
 
