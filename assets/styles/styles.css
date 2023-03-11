@@ -6,13 +6,8 @@
 }
 
 body {
-  background-image: linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(12, 21, 105, 0.616)
-    ),
-    url(../images/bg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: linear-gradient(gba(0, 0, 0, 0.5), gba(12, 21, 105, 0.616)),
+    url(../images/bg2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -39,7 +34,7 @@ body {
 .title-text p {
   font-size: 14px;
   margin: 5px;
-  font-family: "Poppins", sans-serif;
+  font-family: sans-serif;
   text-align: center;
   padding: 3px;
   text-decoration-style: dotted;
